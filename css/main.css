@@ -1,0 +1,64 @@
+ body{
+    background: gray;
+ }
+ /* Add animation for background image transition */
+ @keyframes imageFade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+#banner {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/cccc.jpg);
+    background-size: cover;
+    transition: background-image 3s ease;
+    animation: imageFade 0.5s ease;
+  }
+
+  .content{
+    border: 1px solid red;
+    height: 300px;
+  }
+
+
+  ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li.navitem {
+    float: left;
+  }
+
+  li.navitem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li.navitem a:hover {
+    background-color: #111;
+  }
+
+  /* Add some space underneath the navbar */
+  .spacer {
+    height: 100px;
+  }
+
+  
+  
+  /* Apply animation to the background image */
+ 
