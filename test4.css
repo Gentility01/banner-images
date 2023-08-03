@@ -1,0 +1,60 @@
+/* Reset some default styles to ensure consistency */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the main menu items horizontally */
+  .main-menu {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    position: fixed; /* Fix the navigation bar in place */
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .main-menu li {
+    padding: 10px 20px;
+  }
+  
+  .main-menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the sub-menu items to be hidden by default */
+  .sub-menu {
+    display: none;
+  }
+  
+  /* When hovering over a main-menu item with a sub-menu, show the sub-menu */
+  .main-menu li.has-dropdown:hover .sub-menu {
+
+    display: block;
+    position: absolute; /* Position the sub-menu below its parent */
+    background-color: #444;
+  }
+  
+  /* Style the sub-menu items vertically */
+  .sub-menu li {
+    display: block;
+  }
+  
+  .sub-menu li a {
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  /* Add a hover effect for the sub-menu items */
+  .sub-menu li:hover {
+    background-color: #555;
+  }
+  
+  /* Adjust the second-level dropdown position */
+  .sub-menu .has-dropdown:hover .sub-menu {
+    top: 20;
+    left: 100%;
+  }
+  

@@ -55,3 +55,10 @@ window.addEventListener('scroll', function() {
   // Update the last scroll position with the current scroll position
   lastScrollTop = st;
 });
+
+
+function number(base, height){
+   a = 1/2
+   s = a * base * height 
+   return(s)
+}

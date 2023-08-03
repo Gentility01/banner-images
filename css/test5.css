@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: gray;
+}
+
+nav{
+    background-color: rgb(160, 158, 158);
+    display: flex;
+    height: 15vh;
+}
+
+
+nav .logo{
+    width: 20%;
+    margin: 30px;
+    float: right;
+    /* border: 1px solid green; */
+}
+
+nav .nav-items{
+    width: 80%;
+    /* border: 1px solid red; */
+}
+
+.nav-items ul{
+    
+    display: flex;
+    margin: 10px;
+    float: right;
+
+}
+
+.nav-items ul li{
+    /* border: 1px solid red; */
+    list-style: none;
+    margin: 30px;
+}
