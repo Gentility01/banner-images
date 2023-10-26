@@ -6,8 +6,58 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/test5.css">
 </head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      
+      .search-form {
+        display: flex;
+      }
+      
+      .search-container {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: #fff;
+        overflow: hidden;
+      }
+      
+      #search-input {
+        flex: 1;
+        border: none;
+        outline: none;
+        padding: 5px;
+      }
+      
+      #search-button {
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+      }
+      
+      
+</style>
 <body>
-    <header>
+
+    <form class="search-form">
+        <div class="search-container">
+          <input type="text" id="search-input" placeholder="Enter your search...">
+          <button type="submit" id="search-button">Search</button>
+        </div>
+      </form>
+
+    <!-- <header>
         <nav>
             <div class="logo">
                 Butterfly
@@ -24,6 +74,6 @@
                 </ul>
             </div>
         </nav>
-    </header>
+    </header> -->
 </body>
 </html>

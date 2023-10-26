@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+
+header{
+    border: none;
+    border-bottom: 3px solid #000;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+
+}
+
+.img1{
+/* border: 1px solid black; */
+width:10%;
+}
+
+header h2{
+    /* border: 1px solid black; */
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main form input{
+    width: 200px;
+    border: none;
+    border-bottom: 3px solid black;
+    outline: none;
+    background: transparent;
+}

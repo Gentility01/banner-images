@@ -1,0 +1,44 @@
+body{
+    background-color: gray;
+}
+span{
+    display: block;
+}
+
+.inline2{
+    display: inline;
+}
+
+
+.inline-item {
+    display: inline;
+    margin-right: 10px; /* Add some spacing between the items */
+    list-style-type: none; /* Remove default list bullets */
+}
+
+
+/* Apply display: inline-block; to the block items */
+.inline-block-item {
+    display: inline-block;
+    width: 200px; /* Set a fixed width for each item */
+    margin: 10px; /* Add some spacing around each item */
+    border: 1px solid #333; /* Add a border for clarity */
+    padding: 10px; /* Add padding inside each item */
+}
+
+/* Apply display: grid; to the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 100px); /* Create three equal-width columns */
+    gap: 10px; /* Add some spacing between grid items */
+}
+
+/* Apply styles to individual grid items */
+.grid-item {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #2980b9;
+}
+

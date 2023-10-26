@@ -1,0 +1,20 @@
+p{
+    border:1px solid blue ;
+    border-bottom-right-radius: 10px;
+    width: 50%;
+    margin: 70px 0 0 50px;
+    padding: 70px 10px ;
+    font-family: sans-serif;
+    text-decoration: ;
+}
+
+p:hover{
+    background-color: red;
+    border:1px solid blue ;
+    border-bottom-right-radius: 10px;
+    width: 50%;
+    color: #fff;
+}
+h1, h2, h3{
+    color: green;
+}
